@@ -1,0 +1,93 @@
+*
+{
+	margin:0%;
+	padding:0%;
+	box-sizing:border-box;
+}
+.container
+{
+	margin:0 auto;
+	width:85%;
+	display:flex;
+	margin-top:5%;
+}
+.card
+{
+	width:33.3%;
+	height:auto;
+	border:1px solid rgb(195,195,195);
+	border-radius:20px;
+	margin:1%;
+	padding-top:1%;
+	padding-right:7%;
+	padding-left:7%;
+	padding-bottom:1%;
+	text-align:center;
+	position:relative;
+}
+.card h3
+{
+	color:rgb(88,207,168);
+	font-size:20px;
+}
+
+.card p
+{
+	
+	color:#797D7F;
+	font-size:18px;
+	line-height:30px;
+}
+.card p::before
+{
+	content:"";
+	width:80%;
+	position:absolute;
+	border:1px solid #797D7F;;
+	top:35%;
+	left:10%;
+	
+}
+
+.card button
+{
+	padding:10px;
+	border-radius:10px;
+	border:1px solid green;
+	color:#797D7F;
+	font-size:18px;
+}
+.card h3,p,hr,button
+{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.card h1
+{
+	font-size:50px;
+	margin-bottom:30%;
+}
+.card sub,sup
+{
+	color:grey;
+	font-size:30px;
+}
+.card:hover
+{
+	background-color:rgb(208,250,236);
+}
+.card:hover h3
+{
+	color:#000;
+}
+
+.icon
+{
+	height:10px;
+	width:10px;
+	background-color:green;
+	border-radius:50%;
+	position:relative;
+	left:73%;
+	bottom:7%;
+}
