@@ -1,0 +1,170 @@
+<html>
+	<head>
+	<title>Form</title>
+		<style>
+		.body{
+			padding-left:300px;
+			padding-right:300px;
+			padding-top:50px;
+			
+		}
+		.field{
+			margin-left:100px;
+			
+		}
+		.all
+		{background-color:gray;}
+		.field input[type="text"],input[type="email"],input[type="tel"],input[type="date"]
+		{
+			height:30px;
+			width:400px;
+			border-radius:20px;
+			padding:20px;
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+		.field select{
+			height:40px;
+			width:400px;
+			border-radius:20px;
+			padding-top:5px;
+			padding-bottom:0px;
+			padding-left:10px;
+		}
+		label{
+			font-size:22px;
+			
+			
+		}
+		
+		h3{
+			font-size:23px;
+			text-align:center;
+			
+		}
+		h1
+		{
+			font-size:27px;
+			text-align:center;
+			color:white;
+		}
+		textarea{
+		border-radius:20px;
+		width:400px;
+		height:60px;
+		padding-top:10px;		
+		}
+		button
+		{
+			border-radius:20px;
+			background-color:red;
+			width:400px;
+			padding:10px;
+			margin-top:10px;
+			font-size:22px;
+			color:white;
+		}
+		.gender{
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+		label
+		{
+		 padding:10px;
+		 
+		}
+		</style>
+	</head>
+	<body>
+		<form>
+			
+				<div class="body">
+							<div class="all">
+					<fieldset>
+					<legend>Registration Form</legend>
+					<h1>FastTrack Tehnology</h1>
+					<h3>Personal Information</h3>
+						<div class="field">
+							<label for="fname"><b>Name</b></label>
+							<br>
+							<input name="fname" type="text" placeholder="Enter Your Name">
+							<br>
+							<label for="dob"><b>Date of Birth</b></label>
+							<br>
+							<input name="dob" type="date">
+							<br>
+							<div class="gender">
+								<label for="gender"><b>Gender</b></label>
+								<br>
+								<input type="radio" name="gender"><label style="margin-left:10px;">Male</label>
+								<input type="radio" name="gender"><label style="margin-left:10px;">Female</label>
+								<input type="radio" name="gender"><label style="margin-left:10px;">Others</label>
+							</div>
+							<br>
+							<label for="Email"><b>Email</b></label>
+							<br>
+							<input name="Email"type="email" placeholder="Enter the Email">
+							<br>
+							<label for="address"><b>Address</b></label>
+							<br>
+							<textarea rows="3" cols="20" placeholder="Enter the Address" name="address"></textarea>
+							<br>
+							<label for="phoneno"><b>Phone NO</b></label>
+							<br>
+							<input name="phoneno" type="tel" pattern="[0-9]{10}" placeholder="Enter the Phone Number">
+							<br>
+							<label for="degree"><b>Degree</b></label>
+							<br>
+							<select name="degree">
+								<option value="" disabled selected>Select the Degree</option>
+								<optgroup label="U.G Degree">
+									<option value="bsc">BSc</option>
+									<option value="bcom">Bcom</option>
+									<option value="bba">BBA</option>
+									<option value="bca">BCA</option>
+									<option value="be">BE</option>
+								</optgroup>
+								<optgroup label="P.G Degree">
+									<option value="msc">MSc</option>
+									<option value="mcom">Mcom</option>
+									<option value="mba">MBA</option>
+									<option value="mca">MCA</option>
+									<option value="me">ME</option>
+								</optgroup>
+							</select>
+							<br>
+							<label for="department"><b>Department</b></label>
+							<br>
+							<select name="department">
+								<option value="" disabled selected>Select the Department</option>
+								<option value="com">Computer Science</option>
+								<option value="mat">Maths</option>
+								<option value="phy">Physics</option>
+								<option value="che">Chemistry</option>
+								<option value="bio">Biology</option>
+							</select>
+							<br>
+							<label for="skills"><b>Skills</b></label>
+							<br>
+							<input type="checkbox"><label>HTML</label>
+							<br>
+							<input type="checkbox"><label>CSS</label>
+							<br>
+							<input type="checkbox"><label>Java Script</label>
+							<br>
+							<br>
+							<label for="files"><b>Attach the Resume</b></label>
+							<br>
+							<br>
+							<input type="file" name="files">
+							<br>
+							<br>
+							<button type="submit">Submit</button>
+							<button type="reset">Reset</button>
+						</div>
+			</fieldset>
+			</div>
+			</div>
+		</form>
+	</body>
+</html>
