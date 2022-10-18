@@ -1,0 +1,64 @@
+*
+{
+	margin:0%;
+	padding:0%;
+	box-sizing:border-box;
+}
+.full-section
+{
+	margin:0 auto;
+	width:80%;
+}
+.heading
+{
+	text-align:center;
+	padding:40px;
+	
+}
+.row-top
+{
+	display:flex;
+}
+.card
+{
+	width:33.3%;
+	border-radius:5%;
+	padding:20px;
+	margin:20px;
+	text-align:center;
+	box-shadow:10px 10px 10px 10px #d9d4d4;
+	border-bottom:6px solid blue;
+	transition:2s;
+}
+.card i
+{
+	color:#ffff;
+	background-color:blue;
+	font-size:50px;
+	padding:4%;
+	border-radius:50%;
+}
+.card h2
+{
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.card p
+{
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.card:hover
+{
+	background-color:blue;
+	color:white;
+}
+.card:hover i
+{
+	background-color:white;
+	color:blue;
+}
+.cordrow
+{
+	box-shadow: 5px 10px 10px 10px #d9d4d4;
+}
