@@ -1,0 +1,122 @@
+*
+{
+	margin:0%;
+	padding:0%;
+	box-sizing:border-box;
+}
+
+.container
+{
+	margin:0 auto;
+	width:80%;
+}
+
+.con-head
+{
+	text-align:center;
+	margin:2%;
+	font-family:garamond;	
+}
+.con-head h1,p
+{
+	padding:1%;
+}
+.con-head h1
+{
+	color:#5D6D7E;
+}
+.con-head p
+{
+	font-size:20px;
+	
+}
+.con-body
+{
+	
+	display:flex;
+}
+.img-section
+{
+	width:25%;
+	height:auto;
+}
+.image
+{
+	padding:4%;
+}
+.image img
+{
+	width:100%;
+	height:auto;
+	border-radius:2%;
+}
+.content hr
+{
+	margin: 0 auto;
+	width:25%;
+	
+}
+.content
+{
+	opacity:0.8;
+	padding:2%;
+	width:80%;
+	height:auto;
+	background-color:rgb(111,131,150);
+	text-align:center;
+	color:white;
+	border-radius:2%;
+	position:relative;
+	bottom:20%;
+	left:10%;
+	font-family:garamond;
+
+}
+.content h2,h3
+{
+	padding:4%;
+}
+.icon
+{
+	padding:4%;
+}
+ h2
+{
+	font-weight:bold;
+}
+.icon a
+{
+	color:white;
+}
+.face
+{
+	background-color:white;
+	border-radius:50%;
+	padding:2px;
+}
+.face i
+{
+	color:rgb(111,131,150);
+	margin-top:2px;
+}
+.linked
+{
+	background-color:white;
+	border-radius:20%;
+	padding:1px;
+}
+.linked i
+{
+	color:rgb(111,131,150);
+	margin-top:2px;
+}
+.content h2::after
+{
+	content:"";
+	margin:0 auto;
+	border:1px solid white;
+	position:absolute;
+	width:25%;
+	top:37%;
+	right:37%;
+}
