@@ -1,0 +1,54 @@
+*
+{
+	margin:0%;
+	padding:0%;
+	box-sizing:box-border;
+}
+.content
+{
+	margin:0 auto;
+	width:85%;
+	text-align:center;
+}
+.heading 
+{
+	margin-top:3%;
+	margin-bottom:3%;
+}
+.heading h5
+{
+	color:rgb(96,177,248);
+}
+.heading h1
+{
+	color:rgb(1,41,112);
+}
+.body
+{
+	display:flex;
+	margin:1%;
+}
+.card
+{
+	width:33.3%;
+	height:auto;
+	box-shadow: 5px 5px 15px 0px #888888;
+	padding:2%;
+	margin:0% 1% 1% 1%;
+}
+.card img
+{
+	width:80%;
+	height:50%;
+}
+.card h2
+{
+	color:rgb(1,41,112);
+	margin-top:10%;
+	margin-bottom:3%;
+}
+.card p
+{
+	font-size:20px;
+	color:rgb(68,109,110);
+}
